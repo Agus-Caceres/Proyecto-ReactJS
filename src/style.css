@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +41,31 @@
     transform: rotate(360deg);
   }
 }
+
+#navBar{
+  font-size: 25px;
+}
+
+#itemsNavBar{
+  font-size: 16px;
+}
+
+#listContainer{
+  text-align: center;
+}
+
+#icono{
+  margin-top: 5px;
+  width: 28px;
+  height: 28px;
+}
+
+#numeroIcono{
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+
+
+
+
