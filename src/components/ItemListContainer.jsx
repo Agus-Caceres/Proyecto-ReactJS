@@ -1,14 +1,14 @@
 import React from "react";
 import '../style.css';
 
-const ItemListContainer = () =>{
+const ItemListContainer = (greeting) =>{
     return(
        
-    <div id="itemList" className="container">
+    <div id="itemList" className="container py-5">
     <div className='row'>
       <div className='col-md-12'>
         <div id="listContainer" className="alert alert-danger" role="alert">
-            No se han encontrado productos
+            <p>{greeting.saludo}</p>
         </div>
        </div>
     </div>

@@ -65,7 +65,14 @@
   font-size: 12px;
 }
 
+.fondoBeige{
+background-color: #E1C699;
+}
 
-
+#footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 
 
