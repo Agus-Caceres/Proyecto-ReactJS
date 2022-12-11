@@ -54,15 +54,16 @@
   text-align: center;
 }
 
-#icono{
+#iconoCarrito{
   margin-top: 5px;
-  width: 28px;
-  height: 28px;
+  width: 25px;
+  height: 25px;
+  fill: black;
 }
 
 #numeroIcono{
   margin-top: 8px;
-  font-size: 12px;
+  font-size: 9px;
 }
 
 .fondoBeige{
@@ -73,6 +74,11 @@ background-color: #E1C699;
   position: absolute;
   bottom: 0;
   width: 100%;
+  background-color: #E1C699;
+}
+
+#footerHeigh{
+  height: 10px;
 }
 
 

@@ -2,12 +2,13 @@ import React from "react";
 
 const Footer = () =>{
     return(
-    <div className="container-fluid fondoBeige my-5 row align-items-end" >
+    <div className="container-fluid row align-items-end" >
         <div id="footer" className="container py-2">
+            <div id="footerHeigh"></div>
             <hr />
             <div className="row">
                 <div className="col-md-6"> 
-
+                    <p className="ms-5 lead">CATARSIS</p>
                 </div>
                 <div className="col-md-6 text-end"> 
                     <p>

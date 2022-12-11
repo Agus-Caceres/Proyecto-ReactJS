@@ -7,12 +7,12 @@ import '../style.css';
 
 function NavBar(){
     return (
-    <div className="container">
+  <div className="container">
     <div className='row'>
       <div className='col-md-12'>
         <nav id='navBar' className="navbar navbar-expand-lg">
               <div className="container-fluid">
-                <a id='navBar' class="navbar-brand col-md-2" w href="https://plataforma.coderhouse.com/cursos/34840/reactjs">CATARSIS</a>
+                <a id='navBar' className="navbar-brand col-md-2" w href="https://plataforma.coderhouse.com/cursos/34840/reactjs">CATARSIS</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>
                 </button>
@@ -30,7 +30,7 @@ function NavBar(){
         </nav>
       </div>
     </div>
-    </div>       
+  </div>       
     )
 }
 
