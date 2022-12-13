@@ -43,7 +43,7 @@
 }
 
 #navBar{
-  font-size: 25px;
+  font-size: 30px;
 }
 
 #itemsNavBar{
@@ -62,8 +62,8 @@
 }
 
 #numeroIcono{
-  margin-top: 8px;
-  font-size: 9px;
+  margin-top: 9px;
+  font-size: 10px;
 }
 
 .fondoBeige{
@@ -71,8 +71,9 @@ background-color: #E1C699;
 }
 
 #footer{
-  position: absolute;
+  position: relative;
   bottom: 0;
+  width: 100%;
   width: 100%;
   background-color: #E1C699;
 }
