@@ -1,10 +1,14 @@
 import React from "react";
+import { useEffect } from "react";
 import { useState } from "react";
 
 const ItemCount = ({stockItem}) => {
     const [counter, setCounter] = useState(1);
     const [stock, setStock] = useState(stockItem);
-
+ 
+useEffect(() => {
+    setStock(stockItem)
+}, [stockItem])
 
     const incrementarStock = () => {
         if (counter < stock){
@@ -28,8 +32,8 @@ const ItemCount = ({stockItem}) => {
     
     return( 
     <div className="container text-center">
-        <div className="row">
-            <div className="col-md-2">
+        <div className="row mb-3">
+            <div className="col-md-12">
                 <div className="btn-group" role="group" aria-label="Basic outlined example">
                     <button type="button" className="btn btn-outline-primary" onClick={decrementarStock}>-</button>
                     <button type="button" className="btn btn-outline-primary">{counter}</button>
@@ -39,7 +43,7 @@ const ItemCount = ({stockItem}) => {
         
         </div> 
         <div className="row">
-            <div className="col-md-2 mt-2">
+            <div className="col-md-12">
                 <button type="button" className="btn btn-outline-primary" onClick={onAdd}>Agregar al Carrito</button>
             </div>
         </div> 

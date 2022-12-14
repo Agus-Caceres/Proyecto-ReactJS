@@ -9,13 +9,14 @@ import NavBar from './NavBar';
 
 
 
+
 function App() {
   return (
     <div >
       <BrowserRouter>
         <NavBar /> 
           <Routes>
-            <Route path={"/"} element={<ItemListContainer saludo={"No se encontraron productos"}/>  } />
+            <Route path={"/"} element={<ItemListContainer />  } />
             <Route path={"/category/:id"} element={<ItemListContainer />} />
             <Route path={"/item/:id"} element={<ItemDetailContainer />} />
             <Route path={"*"} element={<Error404 />} />
