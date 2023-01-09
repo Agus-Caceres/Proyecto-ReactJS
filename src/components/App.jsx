@@ -6,24 +6,27 @@ import Footer from './Footer';
 import ItemDetailContainer from './ItemDetailContainer';
 import ItemListContainer from './ItemListContainer';
 import NavBar from './NavBar';
+import CartContextProvider from './context/CartContext';
 
 
 
 
 function App() {
   return (
-    <div >
-      <BrowserRouter>
-        <NavBar /> 
-          <Routes>
-            <Route path={"/"} element={<ItemListContainer />  } />
-            <Route path={"/category/:id"} element={<ItemListContainer />} />
-            <Route path={"/item/:id"} element={<ItemDetailContainer />} />
-            <Route path={"*"} element={<Error404 />} />
-          </Routes>   
-        <Footer /> 
-      </BrowserRouter>
-    </div>
+    <CartContextProvider>
+      <div >
+        <BrowserRouter>
+          <NavBar /> 
+            <Routes>
+              <Route path={"/"} element={<ItemListContainer />  } />
+              <Route path={"/category/:id"} element={<ItemListContainer />} />
+              <Route path={"/item/:id"} element={<ItemDetailContainer />} />
+              <Route path={"*"} element={<Error404 />} />
+            </Routes>   
+          <Footer /> 
+        </BrowserRouter>
+      </div>
+    </CartContextProvider>
   );
 }
 

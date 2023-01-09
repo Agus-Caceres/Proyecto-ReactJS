@@ -1,12 +1,12 @@
 [
-{"id" : 1, "nombre" : "Catena Cabernet", "descripcion" : "Malbec 2021", "imagen" : "/images/CatenaCabernet-Malbec2021.webp", "precio" : 2500, "stock" : 10, "categoria" : "Malbec"},
-{"id" : 2, "nombre" : "Cobos", "descripcion" : "Malbec 2018", "imagen" : "/images/Cobos-Mlabec2018.webp", "precio" : 2500, "stock" : 10, "categoria" : "malbec"},
-{"id" : 3, "nombre" : "Felino", "descripcion" : "Malbec", "imagen" : "/images/Felino-Malbec2021.webp", "precio" : 2500, "stock" : 10, "categoria" : "malbec"},
-{"id" : 4, "nombre" : "Finca Notables", "descripcion" : "Cabernet Sauvignon", "imagen" : "/images/FincaNotables-CabernetSauvignon2016.webp", "precio" : 1520, "stock" : 10, "categoria" : "cabernet"},
-{"id" : 5, "nombre" : "J Alberto", "descripcion" : "Malbec 2021", "imagen" : "/images/JAlberto-Malbec2021.webp", "precio" : 1200, "stock" : 10, "categoria" : "malbec"},
-{"id" : 6, "nombre" : "Salenteine Reserve", "descripcion" : "Malbec 2021", "imagen" : "/images/SalenteinReserve-Malbec2021.webp", "precio" : 2500, "stock" : 10, "categoria" : "malbec"},
-{"id" : 7, "nombre" : "Trapiche Gran Medalla", "descripcion" : "Malbec 2019", "imagen" : "/images/TrapicheGranMedalla-Malbec2019.webp", "precio" : 6000, "stock" : 10, "categoria" : "malbec"},
-{"id" : 8, "nombre" : "Trapiche Gran Medalla", "descripcion" : "Cabernet Sauvignon", "imagen" : "/images/TrapicheMedalla-CabernetSauvignon2020.webp", "precio" : 1800, "stock" : 10, "categoria" : "cabernet"},
-{"id" : 9, "nombre" : "Trapiche Terroir Series Finca Orellana", "descripcion" : "Malbec 2014", "imagen" : "/images/TrapicheTerroirSeriesFincaOrellana-Malbec2014.webp", "precio" : 2000, "stock" : 10, "categoria" : "malbec"},
-{"id" : 10, "nombre" : "Zuccardi Q", "descripcion" : "Malbec 2020", "imagen" : "/images/ZuccadiQ-Malbec2020.webp", "precio" : 2500, "stock" : 10, "categoria" : "malbec"}
+{"index" : 1, "nombre" : "Catena Cabernet", "descripcion" : "Malbec 2021", "imagen" : "/images/CatenaCabernet-Malbec2021.webp", "precio" : 2500, "stock" : 10, "categoria" : "Malbec"},
+{"index" : 2, "nombre" : "Cobos", "descripcion" : "Malbec 2018", "imagen" : "/images/Cobos-Mlabec2018.webp", "precio" : 2500, "stock" : 10, "categoria" : "malbec"},
+{"index" : 3, "nombre" : "Felino", "descripcion" : "Malbec", "imagen" : "/images/Felino-Malbec2021.webp", "precio" : 2500, "stock" : 10, "categoria" : "malbec"},
+{"index" : 4, "nombre" : "Finca Notables", "descripcion" : "Cabernet Sauvignon", "imagen" : "/images/FincaNotables-CabernetSauvignon2016.webp", "precio" : 1520, "stock" : 10, "categoria" : "cabernet"},
+{"index" : 5, "nombre" : "J Alberto", "descripcion" : "Malbec 2021", "imagen" : "/images/JAlberto-Malbec2021.webp", "precio" : 1200, "stock" : 10, "categoria" : "malbec"},
+{"index" : 6, "nombre" : "Salenteine Reserve", "descripcion" : "Malbec 2021", "imagen" : "/images/SalenteinReserve-Malbec2021.webp", "precio" : 2500, "stock" : 10, "categoria" : "malbec"},
+{"index" : 7, "nombre" : "Trapiche Gran Medalla", "descripcion" : "Malbec 2019", "imagen" : "/images/TrapicheGranMedalla-Malbec2019.webp", "precio" : 6000, "stock" : 10, "categoria" : "malbec"},
+{"index" : 8, "nombre" : "Trapiche Gran Medalla", "descripcion" : "Cabernet Sauvignon", "imagen" : "/images/TrapicheMedalla-CabernetSauvignon2020.webp", "precio" : 1800, "stock" : 10, "categoria" : "cabernet"},
+{"index" : 9, "nombre" : "Trapiche Terroir Series Finca Orellana", "descripcion" : "Malbec 2014", "imagen" : "/images/TrapicheTerroirSeriesFincaOrellana-Malbec2014.webp", "precio" : 2000, "stock" : 10, "categoria" : "malbec"},
+{"index" : 10, "nombre" : "Zuccardi Q", "descripcion" : "Malbec 2020", "imagen" : "/images/ZuccadiQ-Malbec2020.webp", "precio" : 2500, "stock" : 10, "categoria" : "malbec"}
 ]
