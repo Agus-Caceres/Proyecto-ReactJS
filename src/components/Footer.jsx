@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () =>{
     return(
-    <div className="container-fluid row align-items-end" >
+    <div className="container-fluid row align-end " >
         <div id="footer" className="container py-2">
             <div id="footerHeigh"></div>
             <hr />
