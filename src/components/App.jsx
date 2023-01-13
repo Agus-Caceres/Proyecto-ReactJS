@@ -9,6 +9,7 @@ import NavBar from './NavBar';
 import CartContextProvider from './context/CartContext';
 import Cart from './Cart';
 import Checkout from './Checkout';
+import ThankYou from './ThankYou';
 
 
 
@@ -25,6 +26,7 @@ function App() {
               <Route path={"/item/:id"} element={<ItemDetailContainer />} />
               <Route path={"/cart"} element={<Cart />} />
               <Route path={"/checkout"} element={<Checkout />} />
+              <Route path={"/thankyou/:id"} element={<ThankYou />} />
               <Route path={"*"} element={<Error404 />} />
             </Routes>  
             <div className='row align-end mt-5 pt-3'><Footer /></div> 
